@@ -1,7 +1,7 @@
 header.hero {
-	width: 100vw;
-	height: 100vh;
-	position: relative;
+	width: 150vw;
+	height: 50vh;
+	position: top;
 	background: url("../images/Artboard-1.png") center center;
 	background-size: cover;
 }
@@ -21,11 +21,13 @@ header.hero h1{
 	position: center;
 	opacity: 50.0;
 	z-index: 1;
-	font: impact;
+	font-size: 20;
+
 }
+
 header.hero li {
 	width:25vw;
-	height:50px;
+	height:10px;
 	border:5;
 }
 
@@ -68,4 +70,12 @@ footer {
 	background: #132363;
 	width: 100vw;
 	height: 50vh;
+	position: bottom;
 }
+
+@media all and (max-width: 480px) {
+	body 
+
+}
+
+@media (orientation: landscape) 
